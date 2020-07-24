@@ -97,7 +97,7 @@ useEffect ( ()=>{
                 </Text>
 
                 <Text style={ styles.PrdName }>
-                   { item.price }
+                   { item.price } 
                 </Text>
                 </View>
               )

@@ -67,7 +67,7 @@ export default function Cards( {navigation }) {
           }}
         />
         <Text> {item.title} </Text>
-        <Text> {item.price} </Text>
+        <Text> Rs-{item.price}  </Text>
         <Button onPress={()=>{navigation.navigate('About', item )}} title="View" />  
       </View>
     );

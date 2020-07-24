@@ -50,7 +50,7 @@ const handleAddToCart = async ()=>{
           }}
         />
         <Text style={styles.text}> {product.title} </Text>
-        <Text style={styles.text}> {product.price} </Text>
+        <Text style={styles.text}> Rs/-{product.price} </Text>
         <Button style={styles.button} onPress={handleAddToCart} title="Add To Cart" /> 
       </View>
     )
